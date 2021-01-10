@@ -1,0 +1,6 @@
+301330473 jzfeng Jeffrey Feng
+
+For the methods for this assignment, a max heap was used for List1 and a binary search tree was used for List2. My heap implementation from Assignment 3 was slightly edited and used for this assignment to implement List1. I used a binary searched tree for List2 because it is less tedious to implement a search function than in a max heap. The code for implementing functions for the binary search tree were gathered from the public website "Cprogramming" and can be found at: cprogramming.com/tutorial/lesson18.html. The first (largest) element from List1 is compared to all elements of List2 and the following can occur:
+	1. If the element from List1 is not found in List2, the value is printed.
+	2. If an element in List1 is found in List2, then go to the next element in list1 and compare that to List2 and repeat until a solution is found that satisfies (1.), or until List1 become empty.
+	3. If List1 is empty (to begin with), or there are are no more elements left, print 'None.'
